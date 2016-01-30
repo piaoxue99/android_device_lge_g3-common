@@ -118,6 +118,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
 
+# QuickCircle Case App
+PRODUCT_PACKAGES += \
+    QuickCircle
+
 # Keystore
 PRODUCT_PACKAGES += \
     keystore.msm8974
