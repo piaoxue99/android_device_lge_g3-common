@@ -172,6 +172,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8974
 
+# QMI
+PRODUCT_PACKAGES += \
+    dsi_config.xml \
+    netmgr_config.xml \
+    qmi_config.xml
+
 # Radio
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
@@ -187,12 +193,14 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.bt.sh \
     init.baseband.sh \
+    init.class_main.sh \
     init.sensors.sh \
     ueventd.g3.rc
 
 # RIL symbols
 PRODUCT_PACKAGES += \
-    liblge
+    liblge \
+    librmnetctl
 
 # Thermal
 PRODUCT_COPY_FILES += \

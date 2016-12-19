@@ -180,13 +180,32 @@ bin/irsc_util
 # Radio
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -app/shutdownlistener/shutdownlistener.apk
+bin/qmuxd
 bin/radish
-lib/librmnetctl.so
-vendor/lib/libsmemlog.so
-vendor/lib/libsystem_health_mon.so
-vendor/lib/libxml.so
+lib/libmdmdetect.so
+lib/libril.so
+lib/librilutils.so
+lib/libuicc.so
+lib/libvss_bsp_qcci.so
+lib/libvss_common_idl.so
+lib/libvss_common_iface.so
+lib/libvss_dmi_qcci.so
+lib/libvss_gnss_qcci.so
+lib/libvss_ims_qcci.so
+lib/libvss_nv_idl.so
+lib/libvss_nv_iface.so
+lib/libvss_resim_idl.so
+lib/libvss_resim_iface.so
 etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
+vendor/lib/libcneapiclient.so
+vendor/lib/libconfigdb.so
+vendor/lib/liblqe.so
+vendor/lib/libnetmgr.so
+vendor/lib/libperipheral_client.so
+vendor/lib/libril-qc-radioconfig.so
+vendor/lib/libril-qcril-hook-oem.so
+vendor/lib/libxml.so
 framework/qcnvitems.jar
 framework/qcrilhook.jar
 
